@@ -1,0 +1,14 @@
+.article-title{
+    color: black;
+}
+
+.article-card:hover{
+    -webkit-box-shadow: -2px 9px 17px 5px rgba(0,0,0,0.76);
+    -moz-box-shadow: -2px 9px 17px 5px rgba(0,0,0,0.76);
+    box-shadow: -2px 9px 17px 5px rgba(0,0,0,0.76); 
+    
+}
+
+.article-padding{
+    padding-bottom: 20px;
+}

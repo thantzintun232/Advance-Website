@@ -1,0 +1,12 @@
+.gallery {
+	text-align: center;
+	
+}
+.gallery h3 a{
+	color: #a4c639;
+	text-transform: uppercase;
+}
+
+.gallery h3 a:hover {
+	color: #ff4d4d;
+}
