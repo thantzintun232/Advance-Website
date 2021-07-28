@@ -877,73 +877,6 @@ h5 a { color: #a4c639; }
 h5 a:hover { color: inherit; } 
 
 /*=========== event_date_area start ==========*/
-.event_date_area {
-  background: #028a0f;
-  padding: 100px 0px;	
-}
-
-.flex {
-  -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -ms-flex-item-align: center;
-  align-self: center;
-}
-
-.event_location {
-  color: #fff;
-}
-
-.event_location h3 {
-  padding-bottom: 5px;
-}
-
-.event_location p {
-  margin-bottom: 0px;
-  color: #fff;
-}
-
-.event_location p span {
-  padding-right: 12px;
-}
-
-.event_time {
-  color: #fff;
-  text-align: center;
-}
-
-.event_time h4 {
-  font-size: 18px;
-  font-weight: 600;
-  padding-bottom: 20px;
-}
-
-.event_time .timer {
-  background: rgba(255, 255, 255, 0.3);
-  overflow: hidden;
-  padding: 27px 0px;
-}
-
-.event_time .timer .timer__section {
-  float: left;
-  overflow: hidden;
-  color: #fff;
-  width: calc(100% / 4);
-}
-
-.event_time .timer .timer__section .timer__number {
-  font: 600 36px/45px "Poppins", sans-serif;
-}
-
-.event_time .timer .timer__section .timer__label {
-  font-size: 14px;
-  line-height: 22px;
-  text-transform: capitalize;
-  font-weight: 400;
-}
 
 h3 {
   font-size: 24px;
@@ -1067,7 +1000,12 @@ position: relative;
 }
 
 .event_post figure img {
-transition: all 300ms linear 0s; }
+transition: all 300ms linear 0s;
+border-style: ridge;
+border-width: 1px;
+width: 100%;
+height: 300px;
+}
 
 .event_post:hover img {
 transform: scale(1.2);
